@@ -25,3 +25,17 @@ section h2{
 #Educationsection h3,p{
     color: chocolate;
 } 
+ul{
+    display: inline-block;
+    width: 45%;
+}
+
+.socialmedia li{
+    display: inline-block;
+}
+li a{
+    color: black;
+    width: 150px;
+    background-color: blanchedalmond;
+    
+}
