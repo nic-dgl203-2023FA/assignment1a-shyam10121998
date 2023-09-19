@@ -9,3 +9,19 @@ img{
 .jobsection{
     color: #87CEEB;
 }
+
+section h2{
+    color: aqua;
+}
+
+.educationsection h3{
+    color: rgb(142, 210, 73);
+}
+
+.educationsection p{
+    color: rgb(142, 210, 73);   
+}
+
+#Educationsection h3,p{
+    color: chocolate;
+} 
