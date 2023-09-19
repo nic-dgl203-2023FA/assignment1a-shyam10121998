@@ -37,6 +37,7 @@ ul{
 .anchor{
     color: violet;
     padding: 4px;
+    margin-left: 10px;
 }
 
 .anchor:hover{
