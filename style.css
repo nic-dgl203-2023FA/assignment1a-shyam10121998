@@ -33,9 +33,12 @@ ul{
 .socialmedia li{
     display: inline-block;
 }
-li a{
+
+.anchor{
+    color: violet;
+    padding: 4px;
+}
+
+.anchor:hover{
     color: black;
-    width: 150px;
-    background-color: blanchedalmond;
-    
 }
