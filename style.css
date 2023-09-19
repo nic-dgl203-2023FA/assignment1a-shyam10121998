@@ -38,8 +38,10 @@ ul{
     color: violet;
     padding: 4px;
     margin-left: 10px;
+    font-family: monospace;
 }
 
 .anchor:hover{
     color: black;
+    font-family: monospace;
 }
