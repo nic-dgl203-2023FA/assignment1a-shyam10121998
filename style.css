@@ -1,3 +1,10 @@
 img{
     width: 300px;
 }
+
+header{
+    background-color: rgb(9, 9, 54);
+    text-align: center;
+    color: white;
+}
+
