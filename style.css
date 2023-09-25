@@ -2,9 +2,14 @@ img{
     width: 300px;
 }
 
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background-color: rgb(9, 9, 54);
-    text-align: center;
     color: #f7fff7;
 }
 
@@ -22,6 +27,11 @@ header h1{                          /* header-h1 font size */
 
 header h2{                           /* header-h2 font size */
     font-size: 35px;
+}
+
+.content-wrap{
+    width: 800px ;
+    margin: 0 auto;
 }
 
 
