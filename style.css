@@ -12,6 +12,10 @@ a{
     color: #ffe66d;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 header h1{                          /* header-h1 font size */
     font-size: 50px;
 }
@@ -20,13 +24,28 @@ header h2{                           /* header-h2 font size */
     font-size: 35px;
 }
 
+
+                                        /*  project*/
 .projects{
     background-color: #f7fff7;
 }
 
+.projects a{
+    color: #f7fff7;
+    background: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+
+                                        /*  work-experience*/
 .work-experience{
     background-color: #a1c6d7;
 }
+
+                                        /*  footer*/
 
 footer{
     background-color: #343434;
