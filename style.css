@@ -31,6 +31,10 @@ header h2{                           /* header-h2 font size */
 }
 
 .projects a{
+    color: #2f3061;
+}
+
+.projects .btn{
     color: #f7fff7;
     background: #2f3061;
     text-decoration: none;
@@ -39,6 +43,9 @@ header h2{                           /* header-h2 font size */
 
 }
 
+.projects .btn:hover{
+    background: rgba(47,48,97, 80%);
+}
 
                                         /*  work-experience*/
 .work-experience{
