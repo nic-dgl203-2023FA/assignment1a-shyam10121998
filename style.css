@@ -6,6 +6,7 @@ header{
     background-color: rgb(9, 9, 54);
     text-align: center;
     color: white;
+    padding-top: 80px;
 }
 
 header h1{                          /* header-h1 font size */
@@ -14,5 +15,13 @@ header h1{                          /* header-h1 font size */
 
 header h2{                           /* header-h2 font size */
     font-size: 35px;
+}
+
+.projects{
+    background-color: #f7fff7;
+}
+
+.work-experience{
+    background-color: #a1c6d7;
 }
 
