@@ -8,6 +8,10 @@ header{
     color: #f7fff7;
 }
 
+a{
+    color: #ffe66d;
+}
+
 header h1{                          /* header-h1 font size */
     font-size: 50px;
 }
