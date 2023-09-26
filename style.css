@@ -32,6 +32,7 @@ header h2{                           /* header-h2 font size */
 .content-wrap{
     width: 800px ;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 
