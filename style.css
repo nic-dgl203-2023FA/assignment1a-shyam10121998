@@ -118,6 +118,19 @@ h3{
     margin-top: 0;
 }
 
+                                        /*      education    */
+
+.education{
+    background-image: url(./images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p{
+    width: 60%;
+}
+
                                         /*  work-experience*/
 .work-experience{
     background-color: #a1c6d7;
