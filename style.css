@@ -103,6 +103,10 @@ h2{
     background-color: #a1c6d7;
 }
 
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
                                         /*  footer*/
 
 footer{
