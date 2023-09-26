@@ -1,3 +1,10 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
 img{
     width: 300px;
 }
@@ -74,6 +81,13 @@ h2{
 
 .projects .btn:hover{
     background: rgba(47,48,97, 80%);
+}
+.project-item{
+    overflow: hidden;
+}
+
+.project-item img{
+    float: left;
 }
 
                                         /*  work-experience*/
