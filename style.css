@@ -93,6 +93,10 @@ h2{
     margin-right: 20px;
 }
 
+.project-item h3{
+    margin-top: 0;
+}
+
                                         /*  work-experience*/
 .work-experience{
     background-color: #a1c6d7;
