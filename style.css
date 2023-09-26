@@ -7,6 +7,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 header{
@@ -22,12 +24,23 @@ a:hover{
     text-decoration: none;
 }
 
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+
 header h1{                          /* header-h1 font size */
     font-size: 50px;
 }
 
 header h2{                           /* header-h2 font size */
     font-size: 35px;
+}
+
+h1, h2{
+    font-family: 'caveat', cursive;
+    font-weight: 400;
+    margin: 0;
 }
 
 .content-wrap{
@@ -37,7 +50,7 @@ header h2{                           /* header-h2 font size */
 }
 
 h2{
-    margin: 0;
+    font-size: 45px;
 }
 
 
