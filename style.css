@@ -21,6 +21,7 @@ body{
 header{
     background-color: rgb(9, 9, 54);
     color: #f7fff7;
+    text-align: center;
 }
 
 a{
@@ -109,3 +110,14 @@ footer{
     color: #f7fff7;
 }
 
+.contact-list{
+    list-style-type:none ;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
+}
