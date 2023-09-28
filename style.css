@@ -13,6 +13,8 @@ img{
 
 
 .navbar {
+    position: sticky;
+    top: 0;
     overflow: hidden;
     background-color: #ffe66d;
 }
