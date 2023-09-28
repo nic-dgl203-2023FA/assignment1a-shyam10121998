@@ -35,8 +35,55 @@ img{
     color: black;
 }
 
+                                                /* modal */
 
-/* global */
+        .modal {                              /* found this code from online source */
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            padding: 20px;
+            border: 1px solid #888;
+            text-align: center;
+            max-width: 80%;
+        }
+
+        /* Style the button to open the modal */
+        .open-modal-btn {
+            background-color: #e6c72b;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Hide the modal when not in use */
+        .modal:target {
+            display: flex;
+        }
+
+        /* Close button style */
+        .close-modal-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color:white;
+            cursor: pointer;
+        }
+
+
+
+                                                /* global */
 body{
     color: #343434;
     margin: 0;
@@ -50,6 +97,7 @@ header{
     background-color: rgb(9, 9, 54);
     color: #f7fff7;
 }
+
 
 a{
     color: #ffe66d;
