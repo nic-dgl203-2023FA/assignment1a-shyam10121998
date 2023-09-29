@@ -121,7 +121,7 @@ header h2{                           /* header-h2 font size */
 }
 
 h1, h2{
-    font-family: 'caveat', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     margin: 0;
 }
