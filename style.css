@@ -94,7 +94,10 @@ body{
 }
 
 header{
-    background-color: rgb(9, 9, 54);
+    /*background-color: rgb(9, 9, 54);*/
+    background-image: url(images/what-is-ux-ui-product-design.jpg);
+    background-size: cover;
+    background-position: top right;
     color: #f7fff7;
 }
 
@@ -310,3 +313,7 @@ footer{
     padding: 5px;
  }
 }
+
+
+/* hamburger menu */
+
