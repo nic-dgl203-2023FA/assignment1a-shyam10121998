@@ -328,6 +328,24 @@ footer{
     text-align: center;
 }
 
+/* second cell */
+@keyframes scaleIn {
+    0% {transform: scale(1.2);}
+    60%{transform: scale(0.7);}
+    100%{transform: scale(1);}
+
+}
+
+.grid-section h4{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    align-items: center;
+
+    animation-name: scaleIn;
+    animation-duration: 2s;
+}
+
 /* Hover animation for grid items */
 .hover-button:hover {
     background-color: #e74c3c;
