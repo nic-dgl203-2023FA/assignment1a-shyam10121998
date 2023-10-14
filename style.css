@@ -297,6 +297,37 @@ footer{
 }
 
 
+/* page 2 motion samples*/
+
+.grid-section{ 
+    height: 700px;
+    background-image: url(images/65550326d777068dc8853fab9b871de1.gif);
+    background-size: cover;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    margin-top: 28px;
+    background-color: #f7fff7;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 
 
@@ -312,6 +343,13 @@ footer{
  .contact-list a{
     padding: 5px;
  }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 
