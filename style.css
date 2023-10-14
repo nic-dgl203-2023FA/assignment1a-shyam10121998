@@ -351,7 +351,6 @@ footer{
 
 /* forth cell */
 .typing-cell {
-    background-color:rgb(123, 190, 245);;
     color: black;
     text-align: center;
     padding: 20px;
@@ -426,6 +425,28 @@ footer{
     }
     50% {
         transform: rotateX(180deg);
+    }
+}
+
+/* sixth cell */
+
+
+
+.custom-animation-element {
+    width: 100px;
+    height: 100px;
+    animation: colorChangeAnimation 2s linear infinite;
+}
+
+@keyframes colorChangeAnimation {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: #e74c3c;
+    }
+    100% {
+        background-color: black;
     }
 }
 
