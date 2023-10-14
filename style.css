@@ -303,6 +303,7 @@ footer{
 .grid-section{ 
     height: 700px;
     background-image: url(images/65550326d777068dc8853fab9b871de1.gif);
+    margin: 5px;
     background-size: cover;
 }
 .grid {
