@@ -314,7 +314,7 @@ footer{
 
 .item {
     margin-top: 28px;
-    background-color: #f7fff7;
+    background-color: rgb(123, 190, 245);
     height: 300px;
     color: #fff;
     text-align: center;
@@ -341,7 +341,6 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     color: black;
     align-items: center;
-
     animation-name: scaleIn;
     animation-duration: 2s;
 }
@@ -354,7 +353,7 @@ footer{
 }
 
 .hover-button {
-    background-color: #3498db;
+    background-color: black;
     color: #fff;
     padding: 10px 20px;
     border: none;
