@@ -1,14 +1,3 @@
-/* color theme
-#ffe66d
-#e6c72b
-rgb(9, 9, 54)
-#343434
-#f7fff7
-#2f3061
-black
-
-*/
-
 html{
     box-sizing: border-box;
 }
@@ -30,6 +19,7 @@ img{
     background-color: #ffe66d;
 }
 
+/* Navigation bar links */
 .navbar a {
     float: right;
     font-size: 16px;
@@ -39,13 +29,11 @@ img{
     text-decoration: none;
 }
 
+/* On hover, the links will change color */
 .navbar a:hover {
     background-color: #ddd;
     color: black;
 }
-
-
-
 
                                                 /* modal */
 
@@ -69,7 +57,7 @@ img{
             max-width: 80%;
         }
 
-       
+        /* Style the button to open the modal */
         .open-modal-btn {
             background-color: #e6c72b;
             color: black;
@@ -79,12 +67,12 @@ img{
             cursor: pointer;
         }
 
-      
+        /* Hide the modal when not in use */
         .modal:target {
             display: flex;
         }
 
-        
+        /* Close button style */
         .close-modal-btn {
             position: absolute;
             top: 10px;
@@ -211,7 +199,7 @@ h3{
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 1000; /* Ensure the modal is on top of other elements */
 }
 
 .custom-modal-content {
@@ -223,6 +211,7 @@ h3{
     position: relative;
 }
 
+/* Style the button to open the modal */
 .custom-btn {
     color: #f7fff7;
     background: #2f3061;
@@ -232,12 +221,12 @@ h3{
     display: inline-block;
 }
 
-
+/* Show the modal when it's targeted */
 .custom-modal:target {
     display: flex;
 }
 
-
+/* Close button style */
 .custom-close-modal-btn {
     position: absolute;
     top: 10px;
@@ -310,6 +299,7 @@ footer{
 
 /* page 2 motion samples*/
 
+
 .grid-section{ 
     height: 700px;
     background-image: url(images/65550326d777068dc8853fab9b871de1.gif);
@@ -336,6 +326,29 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Hover animation for grid items */
+.hover-button:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.hover-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover state animation */
+.hover-button:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    transform: scale(1.1);
 }
 
 
