@@ -14,6 +14,7 @@ img{
 
 .navbar {
     position: sticky;
+    height: 50px;
     top: 0;
     overflow: hidden;
     background-color: #ffe66d;
@@ -34,6 +35,31 @@ img{
     background-color: #ddd;
     color: black;
 }
+
+/*page 2 nav*/
+
+.navbarpage2 {
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #ffe66d;
+}
+
+.navbarpage2 a {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbarpage2 a:hover {
+    background-color: #ddd;
+}
+
 
                                                 /* modal */
 
