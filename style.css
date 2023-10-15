@@ -318,15 +318,14 @@ footer{
     background-color: rgb(123, 190, 245);
     height: 300px;
     color: #fff;
+    width: 250px;
     text-align: center;
-    padding: 20px;
-    transition: all 0.3s ease;
     font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    
 }
 
 /* second cell */
@@ -349,12 +348,12 @@ footer{
     
 }
 /*third cell*/
-.grid img{
+.thirdcell img{
    height: 100px;
    width: 100px;    
    transition: transform 1s ease-in-out;
 }
-.grid img:hover{
+.thirdcell img:hover{
     animation: move 2s linear infinite;
 
 }
@@ -446,26 +445,6 @@ footer{
 }
 
 /* sixth cell */
-
-
-
-.custom-animation-element {
-    width: 100px;
-    height: 100px;
-    animation: colorChangeAnimation 2s linear infinite;
-}
-
-@keyframes colorChangeAnimation {
-    0% {
-        background-color: black;
-    }
-    50% {
-        background-color: #e74c3c;
-    }
-    100% {
-        background-color: black;
-    }
-}
 
 
 /* Hover animation for grid items */
