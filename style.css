@@ -356,6 +356,7 @@ footer{
 }
 .grid img:hover{
     animation: move 2s linear infinite;
+
 }
 @keyframes move {
     0%, 100% {
