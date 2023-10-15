@@ -432,7 +432,7 @@ footer{
 }
 
 .flipping-word span {
-    animation: startflip 2s ease-in-out infinite;
+    animation: startflip 3s ease-in-out infinite;
 }
 
 @keyframes startflip {
