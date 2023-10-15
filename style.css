@@ -349,7 +349,22 @@ footer{
     
 }
 /*third cell*/
-
+.grid img{
+   height: 100px;
+   width: 100px;    
+   transition: transform 1s ease-in-out;
+}
+.grid img:hover{
+    animation: move 2s linear infinite;
+}
+@keyframes move {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px); /* Adjust the distance as needed */
+    }
+}
 /* forth cell */
 .typing-cell {
     color: black;
