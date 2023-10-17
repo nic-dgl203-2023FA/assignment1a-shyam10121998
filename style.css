@@ -437,31 +437,55 @@ footer{
 
 /* fifth cell */
 
-.flip {
-    font-size: 2rem;
-    text-shadow: 2px 2px 0 gray;
-    color: black;
-    text-align: center;
-    padding: 20px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.flipping-word {
-    display: flex;
+.flip{
     font-size: 36px;
+    display: inline-block;
     perspective: 1000px;
+    transform-style: preserve-3d;
 }
 
-.flipping-word span {
-    animation: startflip 3s ease-in-out infinite;
+.flip-letter {
+    display: inline-block;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    animation: flipword 2s linear 7s;
 }
 
-@keyframes startflip {
+.flip-letter:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.flip-letter:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.flip-letter:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.flip-letter:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.flip-letter:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.flip-letter:nth-child(6) {
+    animation-delay: 5s;
+}
+
+.flip-letter:nth-child(7) {
+    animation-delay: 6s;
+}
+
+.flip-letter:nth-child(8) {
+    animation-delay: 7s;
+}
+
+
+
+@keyframes flipword {
     0%, 100% {
         transform: rotateX(0deg);
     }
@@ -469,7 +493,6 @@ footer{
         transform: rotateX(180deg);
     }
 }
-
 /* sixth cell */
 .sixthcell img {
     transition: transform 0.5s ease-in-out;
