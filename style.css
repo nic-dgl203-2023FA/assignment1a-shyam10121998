@@ -438,7 +438,8 @@ footer{
 /* fifth cell */
 
 .flip{
-    font-size: 36px;
+    font-size: 25px;
+    color: black;
     display: inline-block;
     perspective: 1000px;
     transform-style: preserve-3d;
