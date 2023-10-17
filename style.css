@@ -328,7 +328,7 @@ footer{
 
 .grid-section{ 
     height: 700px;
-    background-image: url(images/65550326d777068dc8853fab9b871de1.gif);
+    background-color:#2f3061;
     margin: 5px;
     background-size: cover;
 }
@@ -341,8 +341,9 @@ footer{
 
 .item {
     margin-top: 28px;
-    background-color: rgb(123, 190, 245);
+    background-color: rgb(35, 99, 152);
     height: 300px;
+    border: 5px solid rgb(164, 239, 53);
     color: #fff;
     width: 250px;
     text-align: center;
