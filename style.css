@@ -771,6 +771,27 @@ footer{
       .cls-25 {
         fill: url(#White_Black);
       }
+
+      .cls-25{
+        animation: changetriColor 5s infinite;
+      }
+
+      @keyframes changetriColor {
+        0% {
+          fill: #000; 
+        }
+        33% {
+          fill: #D2B48C; 
+        }
+        66% {
+          fill: #8B4513; 
+        }
+        100% {
+          fill: #5D461A; 
+        }
+      }
+
+
       .cls-26 {
         fill: url(#Gold_Dust-12);
       }
