@@ -884,9 +884,35 @@ footer{
       .cls-37 {
         fill: #003502;
       }
+
+      #cloud-5{
+        animation: treeanimation2 5s infinite;
+      }
+
+      @keyframes treeanimation2 {
+        0%{
+            fill: #003502; 
+        }
+        20%{
+            fill: #004a0a;
+        }
+        50%{
+            fill:  #005517; 
+          }
+        80%{
+            fill: #008a1f;
+          }
+        100%{
+            fill: #003502; 
+        }
+        
+      }
       .cls-38 {
         fill: #005517;
       }
+
+
+
       .cls-39 {
         fill: #008a1f;
       }
