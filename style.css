@@ -38,17 +38,16 @@ img{
 
 /*page 2 nav*/
 
-.navbarpage2 {
+.navbarpage2and3 {
     position: sticky;
     height: 50px;
     width: 100%;
     top: 0;
     display: inline-flex;
-    justify-content: space-between;
     background-color: #ffe66d;
 }
 
-.navbarpage2 a {
+.navbarpage2and3 a {
     font-size: 16px;
     color: black;
     text-align: center;
@@ -56,9 +55,10 @@ img{
     text-decoration: none;
 }
 
-.navbarpage2 a:hover {
+.navbarpage2and3 a:hover {
     background-color: #ddd;
 }
+
 
 
                                                 /* modal */
@@ -638,6 +638,7 @@ footer{
         fill: #838bc5;
         font-family: MyriadPro-Regular, Myriad Pro;
       }
+
       .cls-3 {
         letter-spacing: -0.01em;
       }
@@ -659,6 +660,9 @@ footer{
       .cls-9 {
         letter-spacing: -0.08em;
       }
+
+    
+      
       .cls-10,
       .cls-11,
       .cls-12,
