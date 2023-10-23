@@ -623,10 +623,10 @@ footer{
         fill:  #c1cfd6;
         }
         33% {
-          fill: #c1cfd6; 
+          fill:  #c1cfd6;
         }
         66% {
-          fill: #578fab; 
+          fill: #1b1464; 
         }
         100% {
         fill: #1b1464; 
@@ -983,14 +983,21 @@ footer{
       }
       
       @keyframes colorVisibilityChange {
-        0%, 33% {
-          fill: #8c6239; 
+        0%{
+           
           visibility: hidden;
         }
-        66%,100% {
+        33%{ 
+            visibility: hidden;
+          }
+        66% {
           fill: #8c6239;
           visibility: visible;
         }
+        66% {
+            fill: #8c6239;
+            visibility: visible;
+          } 
       }
 
       .cls-41 {
