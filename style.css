@@ -703,6 +703,29 @@ footer{
         stroke: #000;
         stroke-miterlimit: 10;
       }
+
+      .cls-10 {
+        animation: changeColor 5s infinite;
+      }
+      
+      @keyframes changeColor {
+        0% {
+          fill: #000; 
+        }
+        33% {
+          fill: #228fc5; 
+        }
+        66% {
+          fill: #0d5395; 
+        }
+        100% {
+          fill: #9b59b6; 
+        }
+      }
+
+      
+      
+
       .cls-11 {
         fill: url(#Gold_Dust);
       }
@@ -771,7 +794,7 @@ footer{
       }
       .cls-33 {
         fill: #e6e6e6;
-        animation: changeColorSize 5s forwards;
+        animation: changeColorSize 5s infinite;
         transform-origin: center;
         transform: translate(0);
       }
