@@ -613,6 +613,26 @@ footer{
       .cls-1 {
         fill: #1b1464;
       }
+
+      .cls-1 {
+        animation: changeColorbg 5s infinite;
+      }
+      
+      @keyframes changeColorbg {
+        0% {
+        fill: #1b1464;
+        }
+        33% {
+          fill: #c1cfd6; 
+        }
+        66% {
+          fill: #578fab; 
+        }
+        100% {
+        fill: #1b1464; 
+        }
+      }
+
       .cls-2 {
         font-size: 45.68px;
         fill: #838bc5;
@@ -825,19 +845,11 @@ footer{
           fill: #e6e6e6;
           transform: scale(1);
         }
-        20% {
-          fill: #e6e6e6;
-          transform: scale(1);
-        }
-        40% {
+        33% {
           fill: orange;
           transform: scale(0.75);
         }
-        60% {
-          fill: orange;
-          transform: scale(0.75);
-        }
-        80% {
+        66% {
           fill: orangered;
           transform: scale(1.5);
         }
