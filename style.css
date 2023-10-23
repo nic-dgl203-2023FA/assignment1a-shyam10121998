@@ -983,13 +983,13 @@ footer{
       }
       
       @keyframes colorVisibilityChange {
-        0%, 80%, 100% {
+        0%, 33% {
           fill: #8c6239; 
-          visibility: visible;
-        }
-        20%, 60% {
-          fill: #8c6239;
           visibility: hidden;
+        }
+        66%,100% {
+          fill: #8c6239;
+          visibility: visible;
         }
       }
 
