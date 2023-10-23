@@ -857,6 +857,30 @@ footer{
       .cls-36 {
         fill: #004a0a;
       }
+
+
+      #cloud-4{
+        animation: treeanimation1 5s infinite;
+      }
+
+      @keyframes treeanimation1 {
+        0%{
+          fill: #004a0a; 
+        }
+        20%{
+          fill:  #003502;
+        }
+        50%{
+            fill:  #005517; 
+          }
+        80%{
+            fill: #008a1f;
+          }
+        100%{
+          fill: #004a0a; 
+        }
+      }
+
       .cls-37 {
         fill: #003502;
       }
@@ -866,6 +890,9 @@ footer{
       .cls-39 {
         fill: #008a1f;
       }
+
+
+
       .cls-40 {
         fill: #8c6239;
       }
@@ -884,8 +911,6 @@ footer{
           visibility: hidden;
         }
       }
-      
-      
 
       .cls-41 {
         fill: url(#Blue_Sky-3);
