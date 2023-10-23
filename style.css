@@ -894,23 +894,44 @@ footer{
             fill: #003502; 
         }
         20%{
-            fill: #004a0a;
+            fill: #008a1f;
         }
         50%{
             fill:  #005517; 
           }
         80%{
-            fill: #008a1f;
+            fill: #004a0a;
           }
         100%{
             fill: #003502; 
         }
-        
+
       }
       .cls-38 {
         fill: #005517;
       }
 
+      #cloud-6{
+        animation: treeanimation3 5s infinite;
+      }
+
+      @keyframes treeanimation3 {
+        0%{
+            fill:  #005517; 
+        }
+        20%{
+            fill: #003502;
+        }
+        50%{
+            fill: #004a0a;
+          }
+        80%{
+            fill: #008a1f;
+          }
+        100%{
+            fill:  #005517;  
+        }
+    }
 
 
       .cls-39 {
