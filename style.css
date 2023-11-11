@@ -228,7 +228,7 @@ h3{
 }
 
 
-.projects .btn{
+.projects .project-item__custom-btn{
     color: #f7fff7;
     background: #2f3061;
     text-decoration: none;
@@ -237,7 +237,7 @@ h3{
     display: inline-block;
 }
 
-.projects .btn:hover{
+.projects .project-item__custom-btn:hover{
     background: rgba(47,48,97, 80%);
 }
 .project-item{
@@ -324,12 +324,12 @@ footer{
     color: #f7fff7;
 }
 
-.contact-list{
+.footer__contact-list{
     list-style-type:none ;
     padding: 0;
 }
 
-.contact-list a{
+.footer__contact-link{
     padding: 15px;
     display: inline-block;
 }
@@ -350,7 +350,7 @@ footer{
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
-    .contact-list{
+    .footer__contact-list{
         display: flex;
         justify-content: center;
     }
