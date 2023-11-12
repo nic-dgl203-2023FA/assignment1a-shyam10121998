@@ -43,261 +43,41 @@ body {
   color: black;
 }
 
-/* modal */
-.modal { /* found this code from online source */
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content {
-  background-color: #fefefe;
-  padding: 20px;
-  border: 1px solid #888;
-  text-align: center;
-  max-width: 80%;
-}
-
-/* Style the button to open the modal */
-.open-modal-btn {
-  background-color: #e6c72b;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-/* Hide the modal when not in use */
-.modal:target {
-  display: flex;
-}
-
-/* Close button style */
-.close-modal-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: white;
-  cursor: pointer;
-}
-
-/* global */
-body {
-  color: #343434;
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-header {
-  /*background-color: rgb(9, 9, 54);*/
-  background-image: url(images/what-is-ux-ui-product-design.jpg);
-  background-size: cover;
-  background-position: top right;
-  color: #f7fff7;
-}
-
-a {
-  color: #ffe66d;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 100px;
-  line-height: 1;
-}
-
-header h1 { /* header-h1 font size */
-  font-size: 50px;
-}
-
-header h2 { /* header-h2 font size */
-  font-size: 35px;
-}
-
-h1, h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  margin: 0;
-}
-
-.content-wrap {
-  max-width: 800px; /* just for responsivenss */
-  width: 85%; /* just for responsivenss */
-  margin: 0 auto;
-  padding: 60px 0;
-}
-
-h2 {
-  font-size: 45px;
-}
-
-h3 {
-  margin-bottom: 0;
-}
-
-.item-details h3 + p {
-  font-style: italic;
-}
-
-.item-details h3 ~ p {
-  margin: 0;
-}
-
-.divider > section {
-  border-bottom: 1px dashed #343434;
-  padding: 25px 0;
-}
-
-.divider > section:last-of-type {
-  border-bottom: none;
-}
-
-/*global for second page*/
-.loading-page {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: flipOpen 2.5s ease-in-out forwards;
-  animation-fill-mode: forwards;
-}
-
-.loading-content {
-  font-size: 24px;
-  color: #f3f3eb;
-}
-
-/* Animation to flip open the loading page */
-@keyframes flipOpen {
-  0% {
-    transform: rotateX(0deg);
-    opacity: 2;
+/* Media queries for mobile and web */
+/* For mobile */
+@media screen and (max-width: 749px) {
+  header, footer {
+    text-align: left;
   }
-  100% {
-    transform: rotateX(180deg);
-    opacity: 0;
+  .project-item img {
+    float: none;
+    margin: 0;
+  }
+  .job-item {
+    display: block;
+  }
+  .footer__contact-list {
+    display: block;
+    text-align: center;
   }
 }
-/*  project*/
-.projects {
-  background-color: #f7fff7;
-}
-
-.projects .project-item__custom-btn {
-  color: #f7fff7;
-  background: #2f3061;
-  text-decoration: none;
-  padding: 8px;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-.projects .project-item__custom-btn:hover {
-  background: rgba(47, 48, 97, 0.8);
-}
-
-.project-item {
-  overflow: hidden;
-}
-
-.project-item h3 {
-  margin-top: 0;
-}
-
-.custom-modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000; /* Ensure the modal is on top of other elements */
-}
-
-.custom-modal-content {
-  background-color: #fefefe;
-  padding: 20px;
-  border: 1px solid #888;
-  text-align: center;
-  max-width: 80%;
-  position: relative;
-}
-
-/* Style the button to open the modal */
-.custom-btn {
-  color: #f7fff7;
-  background: #2f3061;
-  text-decoration: none;
-  padding: 8px;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-/* Show the modal when it's targeted */
-.custom-modal:target {
-  display: flex;
-}
-
-/* Close button style */
-.custom-close-modal-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: #888;
-  cursor: pointer;
-}
-
-/*      education    */
-.education {
-  background-image: url(./images/educ.jpg);
-  background-size: cover;
-  background-position: top right;
-  padding-bottom: 100px;
-}
-
-.education p {
-  width: 60%;
-}
-
-/*  work-experience*/
-.work-experience {
-  background-color: rgb(9, 9, 54);
-  color: #f7fff7;
-}
-
-/*  footer*/
-footer {
-  background-color: black;
-  color: #f7fff7;
-}
-
-.footer__contact-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer__contact-link {
-  padding: 15px;
-  display: inline-block;
+/* For web */
+@media screen and (min-width: 750px) {
+  header, footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .footer__contact-list {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
