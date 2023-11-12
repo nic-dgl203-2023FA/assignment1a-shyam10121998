@@ -1,13 +1,13 @@
-$primary-color: #ffe66d;
-$secondary-color: #2f3061;
-$background-dark: rgb(9, 9, 54);
-$background-light: #f7fff7;
-$text-color: #343434;
-$footer-bg: black;
-$footer-text: #f7fff7;
-$modal-bg: rgba(0, 0, 0, 0.7);
-$modal-content-bg: #fefefe;
-$modal-border: #888;
-$link-color: #ffe66d;
-$link-hover-color: black;
-$hover-bg: #ddd;
+// variables.scss
+$color-background: #f7fff7;
+$color-accent: #ffe66d;
+$color-text: #343434;
+$color-link: #2f3061;
+$color-link-hover: rgba(47, 48, 97, 80%);
+$color-modal-background: rgba(0, 0, 0, 0.7);
+$color-modal-content: #fefefe;
+
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Oswald', sans-serif;
+
+$max-width: 800px;

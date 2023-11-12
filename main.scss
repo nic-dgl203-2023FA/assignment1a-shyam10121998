@@ -1,73 +1,259 @@
 @import 'variables';
 @import 'mixins';
 
-
-/* Global styles */
-* {
+html {
   box-sizing: border-box;
-  &:before, &:after {
-    box-sizing: inherit;
-  }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 img {
   width: 300px;
 }
 
-body {
-  color: $text-color;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-
-/* Navigation bar */
+/* navigation bar */ 
 .navbar {
-    position: sticky;
-    height: 50px;
-    top: 0;
-    overflow: hidden;
-    background-color: $link-color;
-}
+  position: sticky;
+  height: 50px;
+  top: 0;
+  overflow: hidden;
+  background-color: $color-accent;
 
-/* Navigation bar links */
-.navbar a {
+  a {
     float: right;
     font-size: 16px;
-    color: black;
+    color: $color-text;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
+    &:hover {
+      background-color: #ddd;
+      color: $color-text;
+    }
+  }
 }
 
-.navbar a:hover {
-    background-color: #ddd;
+/* modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  &.open-modal-btn {
+    @include button-styles;
+    background-color: #e6c72b;
     color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  &:target {
+    display: flex;
+  }
+
+  &.close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+  }
 }
 
+  
+/* ... Previous code until the modal */
 
-@mixin modal-styles {
+/* global */
+body {
+    color: $color-text;
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-image: url(images/what-is-ux-ui-product-design.jpg);
+    background-size: cover;
+    background-position: top right;
+    color: $color-background;
+  
+    h1 {
+      font-size: 100px;
+      line-height: 1;
+    }
+  
+    & h1 {
+      font-size: 50px;
+    }
+  
+    & h2 {
+      font-size: 35px;
+    }
+
+    h1, h2{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        margin: 0;
+    }
+  }
+  
+  .content-wrap {
+    max-width: $max-width;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  
+    h2 {
+      font-size: 45px;
+    }
+  
+    h3 {
+      margin-bottom: 0;
+    }
+  }
+  
+  .item-details {
+    h3 + p {
+      font-style: italic;
+    }
+  
+    h3 ~ p {
+      margin: 0;
+    }
+  }
+  
+  .divider > section {
+    border-bottom: 1px dashed $color-text;
+    padding: 25px 0;
+  }
+  
+  .divider > section:last-of-type {
+    border-bottom: none;
+  }
+  
+  /* project */
+  .projects {
+    background-color: $color-background;
+  
+    .project-item__custom-btn {
+      @include button-styles;
+      background: #2f3061;
+      text-decoration: none;
+      color: $color-background;
+  
+      &:hover {
+        background: rgba(47, 48, 97, 80%);
+      }
+    }
+  
+    .project-item {
+      overflow: hidden;
+  
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+  
+  /* custom modal */
+  .custom-modal {
     display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: $modal-bg;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  
+    &-content {
+      background-color: #fefefe;
+      padding: 20px;
+      border: 1px solid #888;
+      text-align: center;
+      max-width: 80%;
+      position: relative;
+    }
+  
+    &.custom-btn {
+      @include button-styles;
+    }
+  
+    &:target {
+      display: flex;
+    }
+  
+    &.custom-close-modal-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #888;
+      cursor: pointer;
+    }
   }
   
-  @mixin content-modal-styles {
-    background-color: $modal-content-bg;
-    padding: 20px;
-    border: 1px solid $modal-border;
-    text-align: center;
-    max-width: 80%;
+  /* education */
+  .education {
+    background-image: url(./images/educ.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+  
+    p {
+      width: 60%;
+    }
   }
   
+  /* work-experience */
+  .work-experience {
+    background-color: rgb(9, 9, 54);
+    color: $color-background;
+  }
+  
+  /* footer */
+  footer {
+    background-color: black;
+    color: $color-background;
+  
+    
+  .footer__contact-list {
+    list-style-type: none;
+    padding: 0;
 
+    .footer__contact-link {
+      padding: 15px;
+      color: $color-accent;
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none; /* Remove text decoration on hover */
+      }
+    }
+  }
+}
+  
+  
 
 /* Media queries for mobile and web */
 
