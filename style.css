@@ -336,7 +336,30 @@ footer{
 
                                         /* responsiveness */
 
-@media screen and (min-width:750px){
+/*formobile*/
+@media screen and (max-width: 749px) {
+  header, footer {
+      text-align: left;
+  }
+
+  .project-item img {
+      float: none; 
+      margin: 0; 
+  }
+
+  .job-item {
+      display: block;
+  }
+
+  .footer__contact-list {
+      display: block; 
+      text-align: center;
+  }
+}
+
+/*forweb*/
+
+@media screen and (min-width:750px){ 
     header,footer{
         text-align: center;
     }
