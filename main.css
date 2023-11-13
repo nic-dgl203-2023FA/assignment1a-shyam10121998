@@ -297,7 +297,7 @@ footer .footer__contact-list .footer__contact-link:hover {
     justify-content: center;
   }
 }
-/*page 2 motion samples*/
+/* Page 2 motion samples */
 .navbarpage2and3 {
   position: sticky;
   height: 50px;
@@ -364,7 +364,6 @@ footer .footer__contact-list .footer__contact-link:hover {
   transform: scale(1.1);
 }
 
-/* Animation to flip open the loading page */
 @keyframes flipOpen {
   0% {
     transform: rotateX(0deg);
@@ -375,15 +374,16 @@ footer .footer__contact-list .footer__contact-link:hover {
     opacity: 0;
   }
 }
+/* Responsive styles for grid section on smaller screens */
 .grid-section {
-  height: 700px;
+  height: auto; /* Adjust as needed */
   background-color: #2f3061;
   margin: 5px;
   background-size: cover;
 }
 .grid-section .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr; /* Display one column on smaller screens */
   gap: 10px;
   padding: 10px;
 }
@@ -500,7 +500,6 @@ footer .footer__contact-list .footer__contact-link:hover {
 .grid-section__item--sixthcell img:hover {
   transform: scale(1.4);
 }
-
 @keyframes move {
   0%, 100% {
     transform: translateX(0);
@@ -532,4 +531,6 @@ footer .footer__contact-list .footer__contact-link:hover {
   50% {
     transform: rotateX(180deg);
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*page2 responsiveness*//*# sourceMappingURL=main.css.map */
