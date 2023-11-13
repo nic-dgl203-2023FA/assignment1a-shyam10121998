@@ -398,6 +398,7 @@ footer .footer__contact-list .footer__contact-link:hover {
   font-size: 24px;
   display: flex;
   flex-direction: column;
+  margin-left: 110px;
   justify-content: center;
   align-items: center;
   position: relative;
