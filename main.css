@@ -318,7 +318,7 @@ footer .footer__contact-list .footer__contact-link:hover {
   text-decoration: none;
 }
 .navbarpage2and3__link:hover {
-  background-color: rgba(47, 48, 97, 0.8);
+  background-color: #ddd;
 }
 
 .loading_page {
