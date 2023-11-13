@@ -549,6 +549,7 @@ footer .footer__contact-list .footer__contact-link:hover {
     border: 5px solid rgb(244, 233, 30);
     color: #fff;
     width: 250px;
+    margin-left: 0;
     text-align: center;
     font-size: 24px;
     display: flex;
@@ -556,5 +557,41 @@ footer .footer__contact-list .footer__contact-link:hover {
     justify-content: center;
     align-items: center;
     position: relative;
+  }
+  .grid-section .grid-section__item--typing-cell {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-section--typing-cell .typing-text {
+    font-size: 18px;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation-delay: 3s;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
   }
 }/*# sourceMappingURL=main.css.map */
