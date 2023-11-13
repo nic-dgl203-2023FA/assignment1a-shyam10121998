@@ -335,7 +335,7 @@ footer{
   background-color: #ffe66d;
 }
 
-.navbarpage2and3 a {
+.navbarpage2and3__link{
   font-size: 16px;
   color: black;
   text-align: center;
@@ -343,14 +343,14 @@ footer{
   text-decoration: none;
 }
 
-.navbarpage2and3 a:hover {
+.navbarpage2and3__link:hover {
   background-color: #ddd;
 }
 
 
 /*global for second page*/
 
-.loading-page {
+.loading_page {
     position: absolute;
     top: 0;
     left: 0;
@@ -364,7 +364,7 @@ footer{
     animation-fill-mode: forwards;
 }
 
-.loading-content {
+.loading_content {
     font-size: 24px;
     color: #f3f3eb;
 }
@@ -399,7 +399,7 @@ footer{
     padding: 10px;
 }
 
-.item {
+.grid-section__item {
     margin-top: 28px;
     background-color: white;
     height: 300px;
@@ -417,7 +417,7 @@ footer{
 
 /* Hover animation for grid items */
 
-.hover-button {
+.hoverme__hover-button {
     background-color: black;
     color: #fff;
     padding: 10px 20px;
@@ -441,7 +441,7 @@ footer{
     }
 }
 
-.hover-button:hover {
+.hoverme__hover-button:hover {
     background-color: #e74c3c;
     color: #fff;
     transform: scale(1.1);
@@ -457,7 +457,7 @@ footer{
 
 }
 
-.grid-section h4{
+.scaling_heading{
     font-size: 2rem;
     text-shadow: 2px 2px 0 gray;
     font-family: 'Fira Sans', sans-serif;;
@@ -470,14 +470,15 @@ footer{
 
 
 /*third cell*/
-.thirdcell img{
+.grid-section__item--thirdcell img{
    height: 100px;
    width: 100px;    
    transition: transform 1s ease-in-out;
    position: relative;
    z-index: 2;
 }
-.thirdcell img:hover{
+
+.grid-section__item--thirdcell img:hover{
     animation: move 2s linear infinite;
 
 }
@@ -490,7 +491,7 @@ footer{
     }
 }
 /* forth cell */
-.typing-cell {
+.grid-section__item--typing-cell {
     color: black;
     text-align: center;
     padding: 20px;
@@ -596,14 +597,14 @@ footer{
 }
 
 /* sixth cell */
-.sixthcell img {
+.grid-section__item--sixthcell img {
     transition: transform 0.5s ease-in-out;
     cursor: pointer;
     position: relative;
     z-index: 2;
 }
 
-.sixthcell img:hover {
+.grid-section__item--sixthcell img:hover {
     transform: scale(1.4); 
 }
 
