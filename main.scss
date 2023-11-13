@@ -316,3 +316,278 @@ body {
             justify-content: center;
         }
     }
+
+
+    /*page 2 motion samples*/
+
+    .navbarpage2and3 {
+        position: sticky;
+        height: 50px;
+        width: 100%;
+        top: 0;
+        display: inline-flex;
+        background-color: $color-accent;
+      
+        &__link {
+          font-size: 16px;
+          color: $color-text;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      
+          &:hover {
+            background-color: $color-link-hover;
+          }
+        }
+      }
+
+      .loading_page {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color-modal-background;
+        @include flex-center;
+        animation: flipOpen 2.5s ease-in-out forwards;
+        animation-fill-mode: forwards;
+        
+        
+        .loading_content {
+          font-size: 24px;
+          color: $color-modal-content;
+        }
+      }
+
+    .hoverme__hover-button {
+        background-color: black;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        position: relative;
+        z-index: 2;
+        animation: hideButton 0s 3s forwards; 
+        animation-delay: 2s; 
+        opacity: 0; 
+    }
+    
+    @keyframes hideButton {
+        0% {
+            display: block;
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .hoverme__hover-button:hover {
+        background-color: #e74c3c;
+        color: #fff;
+        transform: scale(1.1);
+    }
+    
+    
+    /* Animation to flip open the loading page */
+    @keyframes flipOpen {
+        0% {
+            transform: rotateX(0deg);
+            opacity: 2;
+        }
+        100% {
+            transform: rotateX(180deg);
+            opacity: 0;
+        }
+    }
+    
+      
+      .grid-section {
+        height: 700px;
+        background-color: $gridbackground-color;
+        margin: 5px;
+        background-size: cover;
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+        }
+        
+        &__item {
+          margin-top: 28px;
+          background-color: white;
+          height: 300px;
+          border: 5px solid rgb(244, 233, 30);
+          color: $color-text;
+          width: 250px;
+          text-align: center;
+          font-size: 24px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          @keyframes scaleIn {
+            0% {transform: scale(1.2);}
+            60%{transform: scale(0.7);}
+            100%{transform: scale(1);}
+        
+        }
+        
+        .scaling_heading{
+            font-size: 2rem;
+            text-shadow: 2px 2px 0 gray;
+            font-family: 'Fira Sans', sans-serif;;
+            color: black;
+            align-items: center;
+            animation-name: scaleIn;
+            animation-duration: 2s;
+            animation-delay: 4s;
+        }
+          
+          &--thirdcell {
+            img {
+              height: 100px;
+              width: 100px;
+              transition: transform 1s ease-in-out;
+              position: relative;
+              z-index: 2;
+              
+              &:hover {
+                animation: move 2s linear infinite;
+              }
+            }
+          }
+
+
+  
+      &--typing-cell {
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        .typing-text {
+          font-size: 18px;
+          overflow: hidden;
+          border-right: .15em solid orange;
+          white-space: nowrap;
+          margin: 0;
+          letter-spacing: .15em;
+          animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+          animation-delay: flip-delay(3);
+        }
+      }
+  
+      .flip {
+        font-size: 25px;
+        color: black;
+        display: inline-block;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+  
+        .flip-letter {
+          display: inline-block;
+          perspective: 1000px;
+          transform-style: preserve-3d;
+          animation: flipword 2s linear 7s;
+          animation-delay: flip-delay(3);
+        }
+  
+        .flip-letter:nth-child(1) {
+            animation-delay: flip-delay(0);
+          }
+    
+          .flip-letter:nth-child(2) {
+            animation-delay: flip-delay(1);
+          }
+    
+          .flip-letter:nth-child(3) {
+            animation-delay: flip-delay(2);
+          }
+    
+          .flip-letter:nth-child(4) {
+            animation-delay: flip-delay(3);
+          }
+    
+          .flip-letter:nth-child(5) {
+            animation-delay: flip-delay(4);
+          }
+    
+          .flip-letter:nth-child(6) {
+            animation-delay: flip-delay(5);
+          }
+    
+          .flip-letter:nth-child(7) {
+            animation-delay: flip-delay(6);
+          }
+    
+          .flip-letter:nth-child(8) {
+            animation-delay: flip-delay(7);
+          }
+    
+        }
+    
+  
+      &--sixthcell {
+        img {
+          transition: transform 0.5s ease-in-out;
+          cursor: pointer;
+          position: relative;
+          z-index: 2;
+  
+          &:hover {
+            transform: scale(1.4);
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes move {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50px);
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+  @keyframes flipword {
+    0%, 100% {
+      transform: rotateX(0deg);
+    }
+    50% {
+      transform: rotateX(180deg);
+    }
+  }
+  
+  
+  
