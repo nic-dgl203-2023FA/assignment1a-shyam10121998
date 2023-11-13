@@ -259,47 +259,6 @@ footer .footer__contact-list .footer__contact-link:hover {
   text-decoration: none; /* Remove text decoration on hover */
 }
 
-/* Media queries for mobile and web */
-/* For mobile */
-@media screen and (max-width: 749px) {
-  header, footer {
-    text-align: left;
-  }
-  .project-item img {
-    float: none;
-    margin: 0;
-  }
-  .job-item {
-    display: block;
-  }
-  .footer__title {
-    text-align: center;
-  }
-  .footer__contact-list {
-    display: block;
-    text-align: center;
-  }
-}
-/* For web */
-@media screen and (min-width: 750px) {
-  header, footer {
-    text-align: center;
-  }
-  .project-item img {
-    float: left;
-    margin-right: 20px;
-  }
-  .job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-  }
-  .footer__contact-list {
-    display: flex;
-    justify-content: center;
-  }
-}
 /* Page 2 motion samples */
 .navbarpage2and3 {
   position: sticky;
@@ -353,31 +312,12 @@ footer .footer__contact-list .footer__contact-link:hover {
   opacity: 0;
 }
 
-@keyframes hideButton {
-  0% {
-    display: block;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .hoverme__hover-button:hover {
   background-color: #e74c3c;
   color: #fff;
   transform: scale(1.1);
 }
 
-@keyframes flipOpen {
-  0% {
-    transform: rotateX(0deg);
-    opacity: 2;
-  }
-  100% {
-    transform: rotateX(180deg);
-    opacity: 0;
-  }
-}
 /* Responsive styles for grid section on smaller screens */
 .grid-section {
   height: auto; /* Adjust as needed */
@@ -1152,4 +1092,66 @@ footer .footer__contact-list .footer__contact-link:hover {
 
 .cls-78 {
   fill: url(#Gold_Dust-51);
+}
+
+/* Media queries for mobile and web for first page */
+/* For mobile */
+@media screen and (max-width: 749px) {
+  header, footer {
+    text-align: left;
+  }
+  .project-item img {
+    float: none;
+    margin: 0;
+  }
+  .job-item {
+    display: block;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__contact-list {
+    display: block;
+    text-align: center;
+  }
+}
+/* For web */
+@media screen and (min-width: 750px) {
+  header, footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .footer__contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* Media queries for second page */
+@keyframes hideButton {
+  0% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flipOpen {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 2;
+  }
+  100% {
+    transform: rotateX(180deg);
+    opacity: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
