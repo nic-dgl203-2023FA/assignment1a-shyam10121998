@@ -290,6 +290,10 @@ body {
         .job-item {
             display: block;
         }
+
+        .footer__title{
+           text-align: center;
+        }
       
         .footer__contact-list {
             display: block; 
@@ -327,6 +331,7 @@ body {
     top: 0;
     display: inline-flex;
     background-color: $color-accent;
+    z-index: 1000;
 
     &__link {
         font-size: 16px;

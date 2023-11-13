@@ -272,6 +272,9 @@ footer .footer__contact-list .footer__contact-link:hover {
   .job-item {
     display: block;
   }
+  .footer__title {
+    text-align: center;
+  }
   .footer__contact-list {
     display: block;
     text-align: center;
@@ -305,6 +308,7 @@ footer .footer__contact-list .footer__contact-link:hover {
   top: 0;
   display: inline-flex;
   background-color: #ffe66d;
+  z-index: 1000;
 }
 .navbarpage2and3__link {
   font-size: 16px;
