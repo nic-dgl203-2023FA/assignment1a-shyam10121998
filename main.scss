@@ -36,6 +36,11 @@ img {
   }
 }
 
+.header__open-modal-btn{
+    @include button-styles;
+    text-decoration: none;
+}
+
 /* modal */
 .modal {
   display: none;
@@ -44,26 +49,25 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color:$color-modal-background;
   justify-content: center;
   align-items: center;
 
   &-content {
-    background-color: #fefefe;
+    background-color: $color-modal-content;
     padding: 20px;
     border: 1px solid #888;
     text-align: center;
     max-width: 80%;
   }
 
-  &.open-modal-btn {
+ &.open-modal-btn {
     @include button-styles;
-    background-color: #e6c72b;
+    background-color: $color-accent; 
     color: black;
     padding: 10px 20px;
     cursor: pointer;
   }
-
   &:target {
     display: flex;
   }
@@ -76,9 +80,6 @@ img {
     cursor: pointer;
   }
 }
-
-  
-/* ... Previous code until the modal */
 
 /* global */
 body {
@@ -164,6 +165,12 @@ body {
         background: rgba(47, 48, 97, 80%);
       }
     }
+
+    .projects__title{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        margin: 0;   
+    }
   
     .project-item {
       overflow: hidden;
@@ -182,13 +189,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: $color-modal-background;
     justify-content: center;
     align-items: center;
     z-index: 1000;
   
     &-content {
-      background-color: #fefefe;
+      background-color: $color-modal-content;
       padding: 20px;
       border: 1px solid #888;
       text-align: center;
@@ -223,6 +230,12 @@ body {
     p {
       width: 60%;
     }
+
+    .education__title{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        margin: 0;
+    }
   }
   
   /* work-experience */
@@ -235,6 +248,12 @@ body {
   footer {
     background-color: black;
     color: $color-background;
+
+    .footer__title{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        margin: 0;   
+    }
   
     
   .footer__contact-list {

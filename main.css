@@ -31,6 +31,16 @@ img {
   color: #343434;
 }
 
+.header__open-modal-btn {
+  background-color: #ffe66d;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /* modal */
 .modal {
   display: none;
@@ -57,7 +67,7 @@ img {
   border-radius: 4px;
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #e6c72b;
+  background-color: #ffe66d;
   color: black;
   padding: 10px 20px;
   cursor: pointer;
@@ -73,7 +83,6 @@ img {
   cursor: pointer;
 }
 
-/* ... Previous code until the modal */
 /* global */
 body {
   color: #343434;
@@ -153,6 +162,11 @@ header h1, header h2 {
 .projects .project-item__custom-btn:hover {
   background: rgba(47, 48, 97, 0.8);
 }
+.projects .projects__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
 .projects .project-item {
   overflow: hidden;
 }
@@ -210,6 +224,11 @@ header h1, header h2 {
 .education p {
   width: 60%;
 }
+.education .education__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
 
 /* work-experience */
 .work-experience {
@@ -221,6 +240,11 @@ header h1, header h2 {
 footer {
   background-color: black;
   color: #f7fff7;
+}
+footer .footer__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: 0;
 }
 footer .footer__contact-list {
   list-style-type: none;
