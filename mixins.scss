@@ -31,13 +31,15 @@
   @function flip-delay($index) {
     @return $index * 1s; // Assuming a delay of index * 1 second
   }
-   
+
    @mixin animation($name, $duration, $delay) {
     animation-name: $name;
     animation-duration: $duration;
     animation-delay: flip-delay($delay);
   }
 
+
+  
 
 
 

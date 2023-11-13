@@ -598,4 +598,559 @@ footer .footer__contact-list .footer__contact-link:hover {
       border-color: orange;
     }
   }
+}
+/*animation page*/
+/* animation */
+.cls-1 {
+  fill: #1b1464;
+}
+
+.cls-1 {
+  animation: changeColorbg 5s infinite;
+}
+
+@keyframes changeColorbg {
+  0% {
+    fill: #c1cfd6;
+  }
+  33% {
+    fill: #c1cfd6;
+  }
+  66% {
+    fill: #1b1464;
+  }
+  100% {
+    fill: #1b1464;
+  }
+}
+.cls-2 {
+  font-size: 45.68px;
+  fill: #838bc5;
+  font-family: MyriadPro-Regular, Myriad Pro;
+}
+
+.cls-3 {
+  letter-spacing: -0.01em;
+}
+
+.cls-4 {
+  letter-spacing: -0.08em;
+}
+
+.cls-5 {
+  letter-spacing: 0em;
+}
+
+.cls-6 {
+  letter-spacing: 0em;
+}
+
+.cls-7 {
+  letter-spacing: -0.01em;
+}
+
+.cls-8 {
+  letter-spacing: -0.01em;
+}
+
+.cls-9 {
+  letter-spacing: -0.08em;
+}
+
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-16,
+.cls-17,
+.cls-18,
+.cls-19,
+.cls-20,
+.cls-21,
+.cls-22,
+.cls-23,
+.cls-24,
+.cls-25,
+.cls-26,
+.cls-27,
+.cls-28,
+.cls-29,
+.cls-30,
+.cls-31,
+.cls-33,
+.cls-41,
+.cls-42,
+.cls-43,
+.cls-44,
+.cls-45,
+.cls-46,
+.cls-47,
+.cls-48,
+.cls-49,
+.cls-50,
+.cls-51,
+.cls-52,
+.cls-53,
+.cls-54,
+.cls-55,
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60,
+.cls-61,
+.cls-62,
+.cls-63,
+.cls-64,
+.cls-65,
+.cls-66,
+.cls-67,
+.cls-68,
+.cls-69,
+.cls-70,
+.cls-71,
+.cls-72,
+.cls-73,
+.cls-74,
+.cls-75,
+.cls-76,
+.cls-77,
+.cls-78 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.cls-10 {
+  animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    fill: #000;
+  }
+  33% {
+    fill: #228fc5;
+  }
+  66% {
+    fill: #053d59;
+  }
+  100% {
+    fill: #053954;
+  }
+}
+.cls-11 {
+  fill: url(#Gold_Dust);
+}
+
+.cls-12 {
+  fill: #fcee21;
+}
+
+.cls-13 {
+  fill: url(#Gold_Dust-2);
+}
+
+.cls-14 {
+  fill: url(#Gold_Dust-3);
+}
+
+.cls-15 {
+  fill: url(#Blue_Sky);
+}
+
+.cls-16 {
+  fill: url(#Gold_Dust-4);
+}
+
+.cls-17 {
+  fill: url(#Gold_Dust-5);
+}
+
+.cls-18 {
+  fill: url(#Gold_Dust-6);
+}
+
+.cls-19 {
+  fill: url(#Gold_Dust-7);
+}
+
+.cls-20 {
+  fill: url(#Gold_Dust-8);
+}
+
+.cls-21 {
+  fill: url(#Blue_Sky-2);
+}
+
+.cls-22 {
+  fill: url(#Gold_Dust-9);
+}
+
+.cls-23 {
+  fill: url(#Gold_Dust-10);
+}
+
+.cls-24 {
+  fill: url(#Gold_Dust-11);
+}
+
+.cls-25 {
+  fill: url(#White_Black);
+}
+
+.cls-25 {
+  animation: changetriColor 5s infinite;
+}
+
+@keyframes changetriColor {
+  0% {
+    fill: #000;
+  }
+  33% {
+    fill: #D2B48C;
+  }
+  66% {
+    fill: #8B4513;
+  }
+  100% {
+    fill: #5D461A;
+  }
+}
+.cls-26 {
+  fill: url(#Gold_Dust-12);
+}
+
+.cls-27 {
+  fill: url(#Gold_Dust-13);
+}
+
+.cls-28 {
+  fill: url(#Gold_Dust-14);
+}
+
+.cls-29 {
+  fill: url(#Gold_Dust-15);
+}
+
+.cls-30 {
+  fill: url(#Gold_Dust-16);
+}
+
+.cls-31 {
+  fill: url(#Gold_Dust-17);
+}
+
+.cls-32 {
+  fill: #0071bc;
+}
+
+.cls-33 {
+  fill: #e6e6e6;
+  animation: changeColorSize 5s infinite;
+  transform-origin: center;
+  transform: translate(0);
+}
+
+@keyframes changeColorSize {
+  0% {
+    fill: #e6e6e6;
+    transform: scale(1);
+  }
+  33% {
+    fill: orange;
+    transform: scale(0.75);
+  }
+  66% {
+    fill: orangered;
+    transform: scale(1.5);
+  }
+  100% {
+    fill: orangered;
+    transform: scale(1.5);
+  }
+}
+.cls-34 {
+  fill: #005f2d;
+}
+
+.cls-35 {
+  fill: #603813;
+}
+
+.cls-36 {
+  fill: #004a0a;
+}
+
+#cloud-4 {
+  animation: treeanimation1 5s infinite;
+}
+
+@keyframes treeanimation1 {
+  0% {
+    fill: #004a0a;
+  }
+  20% {
+    fill: #003502;
+  }
+  50% {
+    fill: #005517;
+  }
+  80% {
+    fill: #008a1f;
+  }
+  100% {
+    fill: #004a0a;
+  }
+}
+.cls-37 {
+  fill: #003502;
+}
+
+#cloud-5 {
+  animation: treeanimation2 5s infinite;
+}
+
+@keyframes treeanimation2 {
+  0% {
+    fill: #003502;
+  }
+  20% {
+    fill: #008a1f;
+  }
+  50% {
+    fill: #005517;
+  }
+  80% {
+    fill: #004a0a;
+  }
+  100% {
+    fill: #003502;
+  }
+}
+.cls-38 {
+  fill: #005517;
+}
+
+#cloud-6 {
+  animation: treeanimation3 5s infinite;
+}
+
+@keyframes treeanimation3 {
+  0% {
+    fill: #005517;
+  }
+  20% {
+    fill: #003502;
+  }
+  50% {
+    fill: #004a0a;
+  }
+  80% {
+    fill: #008a1f;
+  }
+  100% {
+    fill: #005517;
+  }
+}
+.cls-39 {
+  fill: #008a1f;
+}
+
+#cloud-7 {
+  animation: treeanimation4 5s infinite;
+}
+
+@keyframes treeanimation4 {
+  0% {
+    fill: #008a1f;
+  }
+  20% {
+    fill: #005517;
+  }
+  50% {
+    fill: #003502;
+  }
+  80% {
+    fill: #004a0a;
+  }
+  100% {
+    fill: #008a1f;
+  }
+}
+.cls-40 {
+  fill: #8c6239;
+}
+
+.cls-40 {
+  animation: colorVisibilityChange 5s infinite;
+}
+
+@keyframes colorVisibilityChange {
+  0% {
+    visibility: hidden;
+  }
+  33% {
+    visibility: hidden;
+  }
+  66% {
+    fill: #8c6239;
+    visibility: visible;
+  }
+  66% {
+    fill: #8c6239;
+    visibility: visible;
+  }
+}
+.cls-41 {
+  fill: url(#Blue_Sky-3);
+}
+
+.cls-42 {
+  fill: url(#Gold_Dust-18);
+}
+
+.cls-43 {
+  fill: url(#Gold_Dust-19);
+}
+
+.cls-44 {
+  fill: url(#Gold_Dust-20);
+}
+
+.cls-45 {
+  fill: url(#Blue_Sky-4);
+}
+
+.cls-46 {
+  fill: url(#Gold_Dust-21);
+}
+
+.cls-47 {
+  fill: url(#Gold_Dust-22);
+}
+
+.cls-48 {
+  fill: url(#Gold_Dust-23);
+}
+
+.cls-49 {
+  fill: url(#Gold_Dust-24);
+}
+
+.cls-50 {
+  fill: url(#Gold_Dust-25);
+}
+
+.cls-51 {
+  fill: url(#Gold_Dust-26);
+}
+
+.cls-52 {
+  fill: url(#Gold_Dust-27);
+}
+
+.cls-53 {
+  fill: url(#Gold_Dust-28);
+}
+
+.cls-54 {
+  fill: url(#Gold_Dust-29);
+}
+
+.cls-55 {
+  fill: url(#Gold_Dust-30);
+}
+
+.cls-56 {
+  fill: url(#Gold_Dust-31);
+}
+
+.cls-57 {
+  fill: url(#Gold_Dust-32);
+}
+
+.cls-58 {
+  fill: url(#Gold_Dust-33);
+}
+
+.cls-59 {
+  fill: url(#Gold_Dust-34);
+}
+
+.cls-60 {
+  fill: url(#Gold_Dust-35);
+}
+
+.cls-61 {
+  fill: url(#Gold_Dust-36);
+}
+
+.cls-62 {
+  fill: url(#Gold_Dust-37);
+}
+
+.cls-63 {
+  fill: url(#Gold_Dust-38);
+}
+
+.cls-64 {
+  fill: url(#Gold_Dust-39);
+}
+
+.cls-65 {
+  fill: url(#Gold_Dust-40);
+}
+
+.cls-66 {
+  fill: url(#Gold_Dust-41);
+}
+
+.cls-67 {
+  fill: url(#Gold_Dust-42);
+}
+
+.cls-68 {
+  fill: url(#Gold_Dust-43);
+}
+
+.cls-69 {
+  fill: url(#Gold_Dust-44);
+}
+
+.cls-70 {
+  fill: url(#Gold_Dust-45);
+}
+
+.cls-71 {
+  fill: url(#Gold_Dust-46);
+}
+
+.cls-72 {
+  fill: url(#Blue_Sky-5);
+}
+
+.cls-73 {
+  fill: url(#Gold_Dust-47);
+}
+
+.cls-74 {
+  fill: url(#Gold_Dust-48);
+}
+
+.cls-75 {
+  fill: url(#Gold_Dust-49);
+}
+
+.cls-76 {
+  fill: url(#Blue_Sky-6);
+}
+
+.cls-77 {
+  fill: url(#Gold_Dust-50);
+}
+
+.cls-78 {
+  fill: url(#Gold_Dust-51);
 }/*# sourceMappingURL=main.css.map */
